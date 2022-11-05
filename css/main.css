@@ -1,0 +1,22 @@
+body {
+    background-color: #FFF6EE;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        display: none;
+        /* background-color: #FFF6EE; */
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    body {
+        display: none;
+        /* background-color: #FFF6EE; */
+    }
+}
