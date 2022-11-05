@@ -1,5 +1,12 @@
+:root {
+    --background: #FFF6EE;
+    --main-font: #632B6A;
+    --button-color: #BF5A36;
+    --button-font-color: #FFF6EE;
+}
+
 body {
-    background-color: #FFF6EE;
+    background: var(--background);
 }
 
 .container {
