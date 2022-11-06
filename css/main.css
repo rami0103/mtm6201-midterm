@@ -73,6 +73,61 @@ nav a {
     color: var(--main-font);
 }
 
+/* Hero Banner Content */
+
+/* Positions text over image */
+.img-wrapper{
+    position: relative;
+}
+
+.hero-banner {
+    width: 85%;
+    position: absolute;
+    top: 42%;
+    margin-left: 2.5rem;
+    padding: 1.2rem;
+    background: #FFF6EE70;
+    border: none;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: bely,serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--main-font);
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: var(--main-font);
+    margin-bottom: 1.5rem;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background-color: var(--button-color);
+    border: none;
+    border-radius: 20px;
+    color: var(--button-font-color);
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Social Media Icons */
+
+.fa-brands {
+    color: var(--button-color);
+    font-size: 1.5rem;
+    padding-right: 1.5rem;
+}
+
 
 @media only screen and (min-width: 600px) {
     body {
