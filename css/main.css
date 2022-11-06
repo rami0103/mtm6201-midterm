@@ -34,7 +34,27 @@ body {
     padding: 0;
 }
 
+nav {
+    display: none;
+}
 
+.nav-toggle {
+    /* Hides the checkbox input */
+    display: none;
+}
+
+.nav-toggle-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 4rem 1.5rem;
+    height: 100%;
+}
+
+.nav-toggle:checked ~ nav {
+    display: block;
+    
+}
 
 nav ul li{
     margin: .8rem 0;
@@ -46,6 +66,11 @@ nav a {
     font-family: 'Mulish', sans-serif;
     font-weight: 300;
     font: .8rem;
+}
+
+
+.fa-solid {
+    color: var(--main-font);
 }
 
 
