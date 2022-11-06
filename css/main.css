@@ -21,6 +21,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    background: #FFF6EE70; /* adds opacity to the background color*/
 }
 
 .logo {
