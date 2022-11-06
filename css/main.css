@@ -4,13 +4,19 @@
     --button-color: #BF5A36;
     --button-font-color: #FFF6EE;
     --heading-text-size: 1.8rem;
-    --body-text-size: 1rem;
+    --body-text-size: .9rem;
 }
 
 body {
     background: var(--background);
 }
 
+.container {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+}
 
 /*********** HERO SECTION ***********/
 
@@ -21,7 +27,8 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background: #FFF6EE70; /* adds opacity to the background color*/
+    background: #FFF6EE;
+    overflow: hidden;
 }
 
 .logo {
@@ -107,7 +114,7 @@ p {
     font-weight: 400;
     color: var(--main-font);
     margin-bottom: 1.5rem;
-    font-size: 1rem;
+    font-size: var(--body-text-size);
 }
 
 button {
@@ -137,6 +144,12 @@ button {
     margin: auto; 
 }
 
+.menu-card {
+    width: 90%;
+    margin: 0 auto 3rem auto;
+    border: 1px red solid;
+}
+
 .img-wrapper {
     width: 90%;
 }
@@ -146,6 +159,44 @@ button {
     object-fit: cover;
 }
 
+h2 {
+    font-size: var(--heading-text-size);
+    color: var(--main-font);
+    font-family: bely,serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 1rem 0;
+}
+
+h3 {
+    color: var(--main-font);
+    font-size: 1rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    width: 90%;
+    margin: .5rem auto 2rem auto;
+}
+
+h6 {
+    color: var(--main-font);
+    font-size: var(--body-text-size);
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    width: 90%;
+    margin: 0 auto 1rem auto;
+}
+
+.menu-button {
+    width: 90%;
+    height: 40px;
+    background-color: var(--button-color);
+    border: none;
+    border-radius: 20px;
+    color: var(--button-font-color);
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
 
 @media only screen and (min-width: 600px) {
     body {
