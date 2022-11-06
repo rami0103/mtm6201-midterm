@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font Awesome Link -->
     <script src="https://kit.fontawesome.com/aaba68b971.js" crossorigin="anonymous"></script>
+    <!-- Adobe Font -->
+    <link rel="stylesheet" href="https://use.typekit.net/tne4zbh.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap" rel="stylesheet">
     <!-- CSS reset -->
     <link rel="stylesheet" href="css/reset.css">
     <!-- Main CSS -->
@@ -14,13 +20,31 @@
 </head>
 <body>
     <div class="container">
-        <img 
-            srcset="images/vanilla-cake-product-480_x_720.jpg 480w,
-                    images/vanilla-cake-product-720_x_1080.jpg 720w,"
-            sizes="
-                    (max-width: 480px) 480px,
-                    (max-width: 720px) 720px," 
-            src="images/vanilla-cake-product-720_x_1080.jpg" alt="Photo of a cake by Polina Tankilevitch">
+        <header>
+            <div class="header-content">
+                <img src="images/Anytime-Treats-logo.png" class="logo" alt="Anytime Treats Logo">
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Menu</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Delivery</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="img-wrapper">
+                <img 
+                srcset="images/vanilla-cake-product-480_x_720.jpg 480w,
+                        images/vanilla-cake-product-720_x_1080.jpg 720w"
+                sizes="
+                        (max-width: 480px) 480px,
+                        (max-width: 720px) 720px" 
+                src="images/vanilla-cake-product-720_x_1080.jpg" alt="Photo of a cake by Polina Tankilevitch">
+            </div>
+
+        </header>
 
     </div>
 </body>
