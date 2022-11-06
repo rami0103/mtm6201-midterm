@@ -3,6 +3,8 @@
     --main-font: #632B6A;
     --button-color: #BF5A36;
     --button-font-color: #FFF6EE;
+    --heading-text-size: 1.8rem;
+    --body-text-size: 1rem;
 }
 
 body {
@@ -105,6 +107,7 @@ p {
     font-weight: 400;
     color: var(--main-font);
     margin-bottom: 1.5rem;
+    font-size: 1rem;
 }
 
 button {
