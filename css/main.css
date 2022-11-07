@@ -143,7 +143,7 @@ button {
 /*********** MENU SECTION ***********/
 .menu-container  {
     width: 100%;
-    margin: auto; 
+    margin: 5rem auto; 
 }
 
 .menu-card {
@@ -167,7 +167,7 @@ h2 {
     font-family: bely,serif;
     font-weight: 700;
     font-style: normal;
-    margin: 1rem 1.5rem;
+    margin: 1.5rem 2.5rem;
 }
 
 h3 {
@@ -183,7 +183,7 @@ h4 {
     font-family: 'Mulish', sans-serif;
     font-weight: 400;
     color: var(--main-font);
-    margin: 1.5rem;
+    margin: 1.5rem 2.5rem;
     font-size: var(--body-text-size);
 }
 
