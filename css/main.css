@@ -179,7 +179,7 @@ h3 {
     margin: .5rem auto 2rem auto;
 }
 
-h4 {
+h4, label {
     font-family: 'Mulish', sans-serif;
     font-weight: 400;
     color: var(--main-font);
@@ -197,7 +197,7 @@ h6 {
 }
 
 
-.menu-button {
+.menu-button, input[type=submit] {
     width: 90%;
     height: 40px;
     background-color: var(--button-color);
@@ -208,6 +208,47 @@ h6 {
     font-weight: 500;
     font-size: 1rem;
     margin-left: 1rem;
+}
+
+/*********** CONTACT SECTION ***********/
+
+.contact-container {
+    width: 100%;
+    margin: 5rem auto; 
+}
+
+input[type=text], input[type=email] {
+    width: 80%;
+    padding: .5rem;
+    margin: 1rem 2.5rem;
+    display: inline-block;
+    border: .2px solid var(--main-font);
+    border-radius: .5rem;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 80%;
+    padding: .5rem;
+    margin: .5rem 0 2rem 2.5rem;
+    display: inline-block;
+    border: .2px solid var(--main-font);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    color: var(--main-font);
+}
+
+input[type=submit] {
+    margin-bottom: 1.5rem;
+    margin-left: 2.5rem;
+    width: 80%;
+}
+
+.location {
+    width: 85%;
+    margin: 0 auto;
 }
 
 @media only screen and (min-width: 600px) {

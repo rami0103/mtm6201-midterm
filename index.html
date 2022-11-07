@@ -76,7 +76,7 @@
                     <h3>Tropical Cupcake</h3>
                     <h6>Swirled and topped with a sweet mango syrup and bits that's absolutely fantastic.</h6>
                     <h6>&dollar; 8 per piece</h6>
-                    <button type="button" class="menu-button">View</button>
+                    <button type="button" aria-label="View" class="menu-button">View</button>
                 </div>                
                 <!-- Veggie Wrap -->
                 <div class="menu-card">
@@ -92,7 +92,7 @@
                     <h3>Impossible Wrap ( <i class="fa-solid fa-seedling"></i> )</h3>
                     <h6>Impossible™ Beef, potato, sundried cherry tomato, mushroom and onions</h6>
                     <h6>&dollar; 22 per piece</h6>
-                    <button type="button" class="menu-button">View</button>
+                    <button type="button" aria-label="View" class="menu-button">View</button>
                 </div>              
                 <!-- Lemon Raspberry Cupcake -->
                 <div class="menu-card">
@@ -108,7 +108,7 @@
                     <h3>Lemon Raspberry Cupcake</h3>
                     <h6>Light, airy, moist, and sunshiny sweet. It is like eating cloud.</h6>
                     <h6>&dollar; 8 per piece</h6>
-                    <button type="button" class="menu-button">View</button>
+                    <button type="button" aria-label="View" class="menu-button">View</button>
                 </div>                
                 <!-- Donut -->
                 <div class="menu-card">
@@ -124,7 +124,7 @@
                     <h3>Protein Donut</h3>
                     <h6>These have 100 calories per donut and packed with over 12 grams of protein a piece</h6>
                     <h6>&dollar; 12 per piece</h6>
-                    <button type="button" class="menu-button">View</button>
+                    <button type="button" aria-label="View" class="menu-button">View</button>
                 </div>                
                 <!-- Carrot cake -->
                 <div class="menu-card">
@@ -141,7 +141,7 @@
                     <h3>Peach Spiced Carrot Cake</h3>
                     <h6>Loaded with spices and topped with peaches and homemade labneh icing</h6>
                     <h6>&dollar; 94 whole cake</h6>
-                    <button type="button" class="menu-button">View</button>
+                    <button type="button" aria-label="View" class="menu-button">View</button>
                 </div>                
                 <!-- Tiramisu -->
                 <div class="menu-card">
@@ -157,14 +157,38 @@
                     <h3>Irish Cream Tiramisu</h3>
                     <h6>This Irish cream tiramisu is made with bailey's liqueur instead of rum or kahlua.</h6>
                     <h6>&dollar; 120 whole cake</h6>
-                    <button type="button" class="menu-button">View</button>
+                    <button type="button" aria-label="View" class="menu-button">View</button>
                 </div>
             </div> <!-- END OF MENU CONTAINER-->
             <div class="contact-container" id="contact"> <!-- START OF CONTACT CONTAINER-->
-                
+                <div class="contact-content">
+                    <h2>Contact Us</h2>
+                    <h4>We would love to hear form you</h4>
+                    <form action="#">
+                        <label for="first_name">First name</label><br>
+                        <input type="text" id="first_name" name="first_name"><br>
+    
+                        <label for="last_name">Last name</label><br>
+                        <input type="text" id="last_name" name="last_name"><br>
+                        
+                        <label for="email_add">Email Address</label><br>
+                        <input type="email" id="email_add" name="email_add"><br>
+                        
+                        <label for="message">Message</label><br>
+                        <textarea name="message" id="message" cols="30" rows="10">Your message</textarea>
+    
+                        <input type="submit" aria-label="Submit" value="Submit">
+                    </form>
+                </div>
 
+                <h2>Location</h2>
+                <h4>1385 Woodroffe Ave, Nepean, ON K2G 1V8</h4>
+                <div class="location">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1435386.436928966!2d-77.51399305542192!3d45.35912382823269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1667792852948!5m2!1sen!2sca" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div> <!-- END OF CONTACT CONTAINER-->
         </main>
+
     </div>
 </body>
 </html>
