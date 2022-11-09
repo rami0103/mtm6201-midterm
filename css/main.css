@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    width: 100%;
+    max-width: 1080px;
     overflow: hidden;
     margin: 0 auto;
     padding: 0;
@@ -72,11 +72,10 @@ nav ul li{
 nav a {
     text-decoration: none;
     color: var(--main-font);
-    font-family: 'Mulish', sans-serif;
+    font-family: bely,serif;
     font-weight: 300;
     font: .8rem;
 }
-
 
 .fa-solid {
     color: var(--main-font);
@@ -287,14 +286,155 @@ ul li a {
 
 @media only screen and (min-width: 600px) {
     body {
-        display: none;
+        /* display: none; */
         /* background-color: #FFF6EE; */
     }
 }
 
 @media only screen and (min-width: 1280px) {
-    body {
+    .nav-toggle, .nav-toggle-label  {
         display: none;
-        /* background-color: #FFF6EE; */
     }
+
+    .home {
+        width: 100%;
+    }
+
+    .header-content {
+        width: 100%;
+        padding: 0;
+        position: relative;
+    }
+    
+    .logo {
+        width: 150px;
+        float: left;
+    }
+    
+    /* Navigation */
+    
+    nav {
+        display: inline;
+        float: right;
+        margin-top: 4rem;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    nav ul li{
+        margin: .8rem 0;
+        padding-right: 2.5rem;
+    }
+    
+
+    /* Hero Banner Content */
+
+    /* Positions text over image */
+    .img-wrapper{
+        width: 45%;
+        margin: 0;
+        float: right;
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .hero-banner {
+        width: 35%;
+        background: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        padding: .2rem;
+    }
+
+    p {
+        margin-bottom: 2rem;
+        padding: .2rem;
+    }
+
+    button {
+        width: 200px;
+        height: 50px;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        padding: 0;
+    }
+
+    /* Social Media Icons */
+
+    .fa-brands {
+        color: var(--button-color);
+        font-size: 1.5rem;
+        padding-right: 3rem;
+    }
+
+    /* ******************************** */
+
+    /*********** MENU SECTION ***********/
+
+    .menu-container  {
+        width: 100%;
+        margin-top: 50rem; 
+        padding: 0;
+    }
+
+    .menu-card {
+        display: grid;
+    }
+
+    .menu-img-wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .menu-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    h2 {
+        margin: 1.5rem 0;
+    }
+
+    h4 {
+        margin: 0;
+    }
+
+    h3 {
+        width: 90%;
+        margin: .5rem auto 2.5rem auto;
+    }
+
+    h6 {
+        color: var(--main-font);
+        font-size: var(--body-text-size);
+        font-family: 'Mulish', sans-serif;
+        font-weight: 400;
+        width: 90%;
+        margin: 0 auto 1rem auto;
+    }
+
+
+    .menu-button, input[type=submit] {
+        width: 90%;
+        height: 40px;
+        background-color: var(--button-color);
+        border: none;
+        border-radius: 20px;
+        color: var(--button-font-color);
+        font-family: 'Mulish', sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+
 }
