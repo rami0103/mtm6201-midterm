@@ -383,30 +383,19 @@ ul li a {
 
     .menu-container  {
         width: 100%;
-        margin-top: 50rem; 
+        margin-top: 52rem; 
         padding: 0;
     }
 
-    .menu-card {
+    .grid {
         display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        margin-top: 3rem;
     }
 
-    .menu-img-wrapper {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .menu-img {
-        width: 100%;
-        object-fit: cover;
-    }
-
-    h2 {
-        margin: 1.5rem 0;
-    }
-
-    h4 {
-        margin: 0;
+    .menu-card {
+        display: flex;
+        flex-direction: column;
     }
 
     h3 {
@@ -415,26 +404,12 @@ ul li a {
     }
 
     h6 {
-        color: var(--main-font);
-        font-size: var(--body-text-size);
-        font-family: 'Mulish', sans-serif;
-        font-weight: 400;
         width: 90%;
-        margin: 0 auto 1rem auto;
+        margin: 1rem auto;
     }
 
-
     .menu-button, input[type=submit] {
-        width: 90%;
-        height: 40px;
-        background-color: var(--button-color);
-        border: none;
-        border-radius: 20px;
-        color: var(--button-font-color);
-        font-family: 'Mulish', sans-serif;
-        font-weight: 500;
-        font-size: 1rem;
-        margin-left: 1rem;
+        margin-top: auto;
     }
 
 }
