@@ -329,7 +329,7 @@ ul li a {
     }
     
     /* ANIMATION FOR HOVERING ON THE NAVIGATION */
-    
+
     nav ul li a::after {
         content: '';
         display: block;
@@ -401,8 +401,6 @@ ul li a {
         font-size: 1.5rem;
         padding-right: 3rem;
     }
-
-    /* ******************************** */
 
     /*********** MENU SECTION ***********/
 
