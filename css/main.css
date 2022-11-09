@@ -328,6 +328,23 @@ ul li a {
         padding-right: 2.5rem;
     }
     
+    nav ul li a::after {
+        content: '';
+        display: block;
+        width: 0;   
+        height: 2px;
+        background: var(--button-color);
+        transition: width .4s;
+    }
+
+    nav ul li a:hover::after {
+        width: 100%;
+        transition: width .3s;
+    }
+    
+    ul li a:hover {
+        color: var(--button-color);
+    }
 
     /* Hero Banner Content */
 
