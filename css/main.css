@@ -328,6 +328,8 @@ ul li a {
         padding-right: 2.5rem;
     }
     
+    /* ANIMATION FOR HOVERING ON THE NAVIGATION */
+    
     nav ul li a::after {
         content: '';
         display: block;
@@ -383,6 +385,13 @@ ul li a {
         font-size: 1rem;
         margin-bottom: 2rem;
         padding: 0;
+        transition: .2s ease-in;
+    }
+
+    /* ANIMATION FOR HOVERING ON THE BUTTON */
+
+    button:hover {
+        box-shadow: 9px 7px 11px -3px rgba(192,192,192,0.8);
     }
 
     /* Social Media Icons */
