@@ -284,12 +284,11 @@ ul li a {
     margin: 5rem 0 2rem 3rem;
 }
 
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
     body {
-        /* display: none; */
-        /* background-color: #FFF6EE; */
+
     }
-}
+} */
 
 @media only screen and (min-width: 1280px) {
     .nav-toggle, .nav-toggle-label  {
@@ -390,7 +389,7 @@ ul li a {
     /* Allows menu cards to display side by side */
     .grid {
         display: grid;
-        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-columns: 4fr 4fr 4fr;
         margin-top: 3rem;
     }
 
@@ -412,8 +411,6 @@ ul li a {
     .menu-button, input[type=submit] {
         margin-top: auto;
     }
-
-    /* ************************ */
 
     /*********** CONTACT SECTION ***********/
 
@@ -441,5 +438,27 @@ ul li a {
         margin: 0 auto;
         padding: 0;
     }
-    
+    /*********** FOOTER SECTION ***********/
+
+    .footer-navigation, .footer-socials, .about-anytime-treats{
+        margin: 0 auto;
+    }
+
+    .about-anytime-treats p {
+        width: 90%;
+        margin-left: .9rem;
+    }
+
+    .footer-navigation ul li {
+        margin: .4rem;
+    }
+
+    .footer-brand {
+        margin-left: 1rem;
+    }
+
+    .copyright {
+        font-size: .8rem;
+        margin: 5rem 1rem;
+    }
 }
