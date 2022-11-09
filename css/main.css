@@ -387,6 +387,7 @@ ul li a {
         padding: 0;
     }
 
+    /* Allows menu cards to display side by side */
     .grid {
         display: grid;
         grid-template-columns: 2fr 2fr 2fr;
@@ -412,4 +413,33 @@ ul li a {
         margin-top: auto;
     }
 
+    /* ************************ */
+
+    /*********** CONTACT SECTION ***********/
+
+    .contact-container {
+        width: 100%;
+        margin: 3rem auto; 
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+    }
+
+    input[type=text], input[type=email] {
+        width: 90%;
+    }
+
+    textarea {
+        width: 90%;
+    }
+
+    input[type=submit] {
+        width: 20%;
+        height: 3rem;
+    }
+
+    .location {
+        margin: 0 auto;
+        padding: 0;
+    }
+    
 }
